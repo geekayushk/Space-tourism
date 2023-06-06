@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 20px;
+    padding-left: 5%;
+}
+nav{
+    backdrop-filter: blur(40px); 
+}
+nav ul{
+    margin: 0 50px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 25px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item1{
+    margin: 5rem 0 0 7rem;
+}
+.item2{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left:75%;
+    margin-top: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: 900;
+    font-size: 8rem;
+    color: white;
+    text-transform: uppercase;
+}
+h2{
+    color: black;
+    text-transform: uppercase;
+}
+h3{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+h4{
+    padding: 1rem 7rem 0 0;
+    color: white;
+    line-height: 25px;
+}
+img{
+    height: 3.5rem;
+}
