@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .home{
-    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-image: url(./starter-code/assets/home/background-home-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
